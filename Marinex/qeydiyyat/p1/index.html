@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Qeydiyyat</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="call">
+            <a href="#"><i class="fa-solid fa-phone"><span>+994 51 440 01 40</span></i></a>
+            <a href="#"><i class="fa-solid fa-phone"><span>+994 51 440 01 40</span></i></a>
+        </div>
+        <div class="money">
+            <p><span>USD</span>- 1.7000</p>
+            <p><span>TRY</span>- 0.1065</p>
+            <p><span>EUR</span>- 1.7851</p>
+        </div>
+        <div class="socialMedia">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="navBtns">
+            <button class="registration">Qeydiyyat</button>
+            <button class="logIn">Daxil ol</button>
+        </div>
+    </nav>
+
+    <div class="section">
+        <img class="logoImg" src="./img/logo.png" alt="">
+        <a href="#">Haqqımızda</a>
+        <a href="#">Tariflər</a>
+        <a href="#">Məntəqə tarifləri</a>
+        <a href="#">Mağazalar</a>
+        <a href="#">Xəbərlər</a>
+        <a href="#">Xidmətlər</a>
+        <a href="#">Daşınma şərtləri</a>
+        <a href="#">Əlaqə</a>
+        <button class="orderBtn">Sifariş et</button>
+    </div>
+
+
+
+    <main>
+        <h1>Yeni hesab yarat</h1>
+        <div class="inputs">
+            <form id="form">
+                <div class="inp1">
+                    <div class="i1">
+                        <p>Ad</p>
+                        <input id="name" type="text">
+                    </div>
+                    <div class="i1">
+                        <p>Soyad</p>
+                        <input id="surname" type="text">
+                    </div>
+                </div>
+
+
+                <div class="inp1">
+                    <div class="i1">
+                        <p>Doğum tarixi</p>
+                        <input id="date" type="date">
+                    </div>
+                    <div class="i1">
+                        <p>Cinsiyyət</p>
+                        <select name="gender" id="gender">
+                            <option value="Qadin">Qadin</option>
+                            <option value="Kisi">Kisi</option>
+                            <option value="Demeyi tercih etmirem">Demeyi tercih etmirem</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="inp1">
+                    <div class="i1">
+                        <p>Şəxsiyyət vəsiqəsinin seriyası</p>
+                        <select name="country" id="country">
+                            <option value="AZE">AZE</option>
+                            <option value="Try">Try</option>
+                            <option value="RUS">RUS</option>
+
+                        </select>
+                    </div>
+                    <div class="i1">
+                        <p>FIN</p>
+                        <input id="fin" type="text">
+                    </div>
+                </div>
+
+
+                <div class="inp1">
+                    <div class="i1">
+                        <p>Seher</p>
+                        <select name="city" id="city">
+                            <option value="BAKU">Baku</option>
+                            <option value="ISTANBUL">Istanbul</option>
+                            <option value="ANKARA">Ankara</option>
+                            <option value="MOSKOVA">Moskova</option>
+                            <option value="Saint Petersburg">Saint Petersburg</option>
+
+                        </select>
+                    </div>
+                    <div class="i1">
+                        <p>Telefon</p>
+                        <select name="tel" id="tel">
+                            <option value="050">050</option>
+                            <option value="055">055</option>
+                            <option value="070">070</option>
+
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="inp2">
+                    <div class="i1">
+                        <p>Unvan</p>
+                        <input id="adress" type="text">
+                    </div>
+                </div>
+
+
+
+
+                <div class="inp1">
+                    <div class="i1">
+                        <p>Təhvil almaq istədiyin filial</p>
+                        <select name="filial" id="filial">
+                            <option value="BAKU">Baku, Genclik fil</option>
+                            <option value="BAKU">Baku, 28 may fil</option>
+                            <option value="BAKU">Baku, Bakixanov fil</option>
+
+                        </select>
+                    </div>
+                    <div class="i1">
+                        <p>Email</p>
+                        <input id="email" type="email" placeholder="example@gmail.com">
+                    </div>
+                </div>
+
+
+                <div class="inp1">
+                    <div class="i1">
+                        <p>Şifrə</p>
+                        <input id="parol" type="text">
+                    </div>
+                    <div class="i1">
+                        <p>Şifrənin tekrari</p>
+                        <input id="hiddenparal" type="password">
+                    </div>
+                </div>
+
+                <input type="submit" value="Qeydiyyat">
+
+            </form>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="part1">
+            <img src="./img/logo2.png" alt="">
+        </div>
+        <div class="part2">
+            <p>Haqqımızda</p>
+            <p>Tariflər</p>
+            <p>Mağazalar</p>
+            <p>Xəbərlər</p>
+        </div>
+        <div class="part3">
+            <p>Xidmətlər</p>
+            <p>Məntəqələr</p>
+            <p>Daşınma şərtləri</p>
+            <p>Əlaqə</p>
+        </div>
+        <div class="part4">
+            <p>Bakı şəh. Nərimanov r. Nazim Hacıyev küçəsi</p>
+            <p>+994 51 440 01 40 +994 12 514 07 06</p>
+            <p>info.@hello.az</p>
+        </div>
+        <div class="part5">
+            <p>Ən son yeniliklərdən və endirimlərdən xəbərdar olun.</p>
+            <div class="finalIcons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p>Tezliklə</p>
+            <img src="./img/last.png" alt="" srcset="">
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js" integrity="sha512-JSCFHhKDilTRRXe9ak/FJ28dcpOJxzQaCd3Xg8MyF6XFjODhy/YMCM8HW0TFDckNHWUewW+kfvhin43hKtJxAw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>

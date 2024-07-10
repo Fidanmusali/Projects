@@ -1,0 +1,233 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: var(--blue);
+    position: sticky;
+}
+
+.money {
+    display: flex;
+    gap: 5rem;
+    color: white;
+}
+
+.call {
+    display: flex;
+    gap: 2rem;
+}
+
+.call a {
+    color: orange;
+    text-decoration: none;
+}
+
+.call span {
+    color: white;
+}
+
+p span {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.socialMedia {
+    display: flex;
+    gap: 2rem;
+}
+
+.socialMedia a {
+    color: white;
+}
+
+.loginAndEnter {
+    display: flex;
+    gap: 2rem;
+}
+
+.login,
+.enterIn {
+    background-color: var(--blue);
+    border: 0px solid;
+    color: white;
+    font-size: 1rem;
+}
+
+.enterIn:hover {
+    color: orange;
+}
+
+.login:hover {
+    color: orange;
+}
+
+.logoImg {
+    width: 8rem;
+}
+
+.section {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+
+}
+
+.sectionNav {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.sectionNav a {
+    text-decoration: none;
+    color: black;
+}
+
+.sectionNav a:hover {
+    color: orange;
+}
+
+.order {
+    width: 14rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: 0px solid;
+    background-color: orange;
+    color: white;
+    font-size: 0.8rem;
+    box-shadow: 1px 2px 3px grey;
+}
+
+
+
+
+.information {
+    border: 0px solid;
+    line-height: 3.5rem;
+    /* margin-inline: 1.2rem; */
+    padding: 3rem;
+    width: 30rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #CEDEFA;
+
+}
+
+.information h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.icons a {
+    display: block;
+    color: orange;
+    text-decoration: none;
+}
+
+.icons span {
+    color: black;
+    margin-inline: 1.2rem;
+}
+
+.icons {
+    line-height: 3rem;
+}
+
+.socialMediaIcons {
+    display: flex;
+    gap: 2rem;
+}
+
+.socialMediaIcons A {
+    color: orange;
+}
+
+.inputs {
+    display: flex;
+    gap: 2rem;
+}
+
+
+input {
+    width: 33rem;
+    height: 2.7rem;
+    border-radius: 5px;
+    border: 0.5px solid;
+    margin-bottom: 1.5rem;
+    flex-direction: column;
+    padding-inline: 2rem;
+
+}
+
+input:focus {
+    background-color: lightblue;
+
+}
+
+.data {
+    border: 0px solid;
+    line-height: 3.5rem;
+    padding: 3rem;
+    width: 39rem;
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    background-color: orange;
+    color: white;
+}
+
+#message {
+    height: 10rem;
+}
+
+main {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-around;
+}
+
+
+
+footer {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--blue);
+    padding: 5rem;
+}
+
+.part1 img {
+    width: 8rem;
+}
+
+.part2,
+.part3,
+.part4,
+.part5 {
+    line-height: 3rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.finalIcons a {
+    color: white;
+}
+
+.finalIcons {
+    display: flex;
+    gap: 2rem;
+}
+
+footer p:hover {
+    color: orange;
+}
+
+.finalIcons a:hover {
+    color: orange;
+
+}

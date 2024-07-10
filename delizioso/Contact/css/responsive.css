@@ -1,0 +1,210 @@
+/* PHONE */
+@media screen and (max-width: 767px) {
+    nav {
+        justify-content: center;
+    }
+
+    .navMenu a {
+        display: none;
+    }
+
+    .logInBtn {
+        display: none;
+    }
+
+    .navBar img {
+        display: block !important;
+        position: absolute;
+        font-size: 2rem;
+        right: 2rem;
+    }
+
+
+
+    main {
+        text-align: center !important;
+        line-height: 2.5rem !important;
+    }
+
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    main p {
+        font-size: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .inputs {
+        display: block !important;
+    }
+
+    .input1,
+    .input2 {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0rem !important;
+    }
+
+    .input1 input,
+    .input2 input {
+        display: block !important;
+        margin-bottom: 1rem !important;
+
+    }
+
+    .input3 {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 1rem !important;
+
+
+    }
+
+    .input3 input {
+        width: 20rem !important;
+    }
+
+    .input4 {
+        gap: 1rem !important;
+
+
+    }
+
+    .input4 input {
+        width: 20rem !important;
+
+    }
+
+
+
+    .location {
+        margin-top: 5rem;
+        background-image: url(../img/map.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 25rem !important;
+        height: 40rem !important;
+        display: flex;
+        /* border: 1px solid black; */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .locationInfo {
+        width: 30rem;
+        height: 11rem;
+        display: flex;
+        /* border: 1px solid black; */
+        align-items: center;
+        justify-content: center;
+        background-color: var(--white);
+        opacity: 0.9;
+        padding-inline: 1rem;
+        gap: 3rem;
+        border-radius: 10px;
+    }
+
+    .locationInfo h3 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 2rem;
+
+    }
+
+    .locationInfo p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        color: var(--color1);
+    }
+
+    .img1 {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .img2 {
+        width: 10rem;
+        height: 6rem;
+    }
+
+
+    footer {
+        display: block !important;
+    }
+
+    footer .section2,
+    footer .section3,
+    footer .section4 {
+        padding-inline-start: 1rem !important;
+
+    }
+}
+
+
+
+
+
+/* tablet */
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+
+    .navMenu a {
+        display: none;
+    }
+
+    .icon {
+        margin-inline: 8rem;
+    }
+
+    .navBar img {
+        display: block !important;
+        position: absolute;
+        font-size: 2rem;
+        right: 14rem;
+    }
+
+
+
+
+
+    main {
+        line-height: 3rem !important;
+    }
+
+    main p {
+        text-align: center !important;
+    }
+
+
+
+
+
+    .location {
+        width: 50rem !important;
+        height: 40rem !important;
+    }
+
+
+
+    footer {
+        display: block !important;
+
+    }
+
+
+    footer .section1,
+    footer .section2 {
+        padding-top: 6.5rem;
+
+    }
+
+    footer .section1,
+    footer .section2,
+    footer .section3,
+    footer .section4 {
+        padding-inline-start: 1rem !important;
+
+    }
+
+}

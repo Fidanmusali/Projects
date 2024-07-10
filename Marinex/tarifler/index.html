@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Tarifler</title>
+</head>
+
+<body>
+    <nav>
+        <div class="call">
+            <a href="#"><i class="fa-solid fa-phone"><span>+994 51 440 01 40</span></i></a>
+            <a href="#"><i class="fa-solid fa-phone"><span>+994 51 440 01 40</span></i></a>
+        </div>
+        <div class="money">
+            <p><span>USD</span>- 1.7000</p>
+            <p><span>TRY</span>- 0.1065</p>
+            <p><span>EUR</span>- 1.7851</p>
+        </div>
+        <div class="socialMedia">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="navBtns">
+            <button class="registration">Qeydiyyat</button>
+            <button class="logIn">Daxil ol</button>
+        </div>
+    </nav>
+
+    <div class="section">
+        <img class="logoImg" src="./img/logo.png" alt="">
+        <a href="#">Haqqımızda</a>
+        <a href="#">Tariflər</a>
+        <a href="#">Məntəqə tarifləri</a>
+        <a href="#">Mağazalar</a>
+        <a href="#">Xəbərlər</a>
+        <a href="#">Xidmətlər</a>
+        <a href="#">Daşınma şərtləri</a>
+        <a href="#">Əlaqə</a>
+        <button class="orderBtn">Sifariş et</button>
+    </div>
+    <main>
+        <div class="calc">
+            <div class="calcImg">
+                <img src="./img/calc.png" alt="">
+            </div>
+            <div class="price">
+                <h2>Daşınma qiyməti necə hesablanır?</h2>
+                <p>Məhsulunuzu seçin, kalkulyator vasitəsi ilə daşınma qiymətini hesablayın</p>
+                <div class="menu">
+
+
+                    <div class="forms">
+                        <form id="form1" class="form1">
+                            <select name="country" id="country">
+                                <option id="tr" value="Turkiye">Turkiye</option>
+                                <option id="usa" value="Amerika">Amerika</option>
+                                <option id="aze" value="Azerbaycan">Azerbaycan</option>
+                            </select>
+                        </form>
+                        <form class="form2">
+                            <select name="goods" id="goods">
+                                <option value="tip">Məhsulun tipi</option>
+                                <option value="Taxta">Taxta</option>
+                                <option value="demir">Demir</option>
+                            </select>
+                        </form>
+                    </div>
+                    <form id="inputs">
+                        <div class="inp1">
+                            <input id="en" type="number" placeholder="En(sm)">
+                            <input id="hundurluk" type="number" placeholder="hundurluk(sm)">
+                        </div>
+                        <div class="inp2">
+                            <input id="uzunluq" type="number" placeholder="uzunluq(sm)">
+                            <input id="ceki" type="number" placeholder="ceki(kq)">
+                        </div>
+                        <input type="submit" value="gonder">
+
+                    </form>
+                    <div id="current" class="current"></div>
+                </div>
+            </div>
+        </div>
+        <h3>Tariflər!</h3>
+
+        <div class="tariffs">
+            <div class="products">
+                <h4>Adi məhsul</h4>
+                <p>0.75 USD</p>
+                <p>1.00 USD</p>
+                <p>2.50 USD</p>
+                <p>3.50 USD</p>
+                <p>4.00 USD</p>
+                <p>kg / 3.00 USD</p>
+            </div>
+
+            <div class="fluid">
+                <h4>Maye</h4>
+                <p>0.75 USD</p>
+                <p>1.00 USD</p>
+                <p>2.50 USD</p>
+                <p>3.50 USD</p>
+                <p>4.00 USD</p>
+                <p>kg / 3.00 USD</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="part1">
+            <img src="./img/logo2.png" alt="">
+        </div>
+        <div class="part2">
+            <p>Haqqımızda</p>
+            <p>Tariflər</p>
+            <p>Mağazalar</p>
+            <p>Xəbərlər</p>
+        </div>
+        <div class="part3">
+            <p>Xidmətlər</p>
+            <p>Məntəqələr</p>
+            <p>Daşınma şərtləri</p>
+            <p>Əlaqə</p>
+        </div>
+        <div class="part4">
+            <p>Bakı şəh. Nərimanov r. Nazim Hacıyev küçəsi</p>
+            <p>+994 51 440 01 40 +994 12 514 07 06</p>
+            <p>info.@hello.az</p>
+        </div>
+        <div class="part5">
+            <p>Ən son yeniliklərdən və endirimlərdən xəbərdar olun.</p>
+            <div class="finalIcons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p>Tezliklə</p>
+            <img src="./img/last.png" alt="" srcset="">
+        </div>
+    </footer>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

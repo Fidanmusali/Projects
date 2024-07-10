@@ -1,0 +1,203 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #254083;
+    padding: 0.6rem;
+
+}
+
+.call,
+.money {
+    display: flex;
+    gap: 3rem;
+}
+
+.call a {
+    color: orange;
+}
+
+.call span {
+    color: white;
+    font-weight: 400;
+}
+
+.money {
+    color: white;
+}
+
+.money span {
+    font-weight: 700;
+}
+
+.socialMedia {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.socialMedia a {
+    color: white;
+}
+
+.navBtns {
+    display: flex;
+    gap: 2rem;
+}
+
+.navBtns :hover {
+    color: orange;
+}
+
+.registration,
+.logIn {
+    border: 0px solid;
+    background-color: #254083;
+    color: white;
+    font-size: 1rem;
+
+}
+
+
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    padding: 2.5rem;
+
+}
+
+.section a {
+    text-decoration: none;
+    color: black;
+}
+
+.section a:hover {
+    color: orange;
+}
+
+.orderBtn {
+    background-color: orange;
+    width: 14rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: 0px solid;
+    color: white;
+    box-shadow: 3px 3px 3px #8A8A8A;
+}
+
+.logoImg img {
+    width: 6rem;
+}
+
+h1{
+    text-align: center;
+    color: #254083;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+
+}
+.g1 p,
+.g1 h2{
+    padding: 10px;
+}
+.groups {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1200px;
+    margin: 0px auto;
+    gap: 3rem;
+}
+
+.g1 img {
+    width: 16.4rem;
+}
+
+.g1 {
+    width: 16.5rem;
+    border: 1px solid #254083;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #254083;
+}
+
+.g1 h2 {
+    font-size: 1.2rem;
+    color: #254083;
+}
+
+.text {
+    font-size: 1rem;
+}
+
+.mth {
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.orangeBtn a {
+    color: white;
+    background-color: orange;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.color {
+    color: #254083;
+    font-weight: 600;
+}
+
+.btns {
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+
+footer {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #254083;
+    padding: 5rem;
+}
+
+.part1 img {
+    width: 7rem;
+}
+
+.part2,
+.part3,
+.part4,
+.part5 {
+    line-height: 3rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.finalIcons a {
+    color: white;
+}
+
+.finalIcons {
+    display: flex;
+    gap: 2rem;
+}
+
+footer p:hover {
+    color: orange;
+}
+
+.finalIcons a:hover {
+    color: orange;
+
+}

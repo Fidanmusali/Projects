@@ -1,0 +1,672 @@
+/* phone */
+@media screen and (max-width: 767px) {
+    nav {
+        justify-content: center;
+    }
+
+    .navMenu a {
+        display: none;
+    }
+
+    .logInBtn {
+        display: none;
+    }
+
+    .navBar img {
+        display: block !important;
+        position: absolute;
+        font-size: 2rem;
+        right: 2rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .mainTop {
+        margin-top: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        gap: 0rem;
+    }
+
+    .mainTop img {
+        display: none !important;
+    }
+
+    h1 {
+        font-size: 4rem;
+        font-family: "Tinos", serif;
+        /* text-align: center; */
+        margin-inline: 40rem;
+    }
+
+    h2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 2rem;
+
+    }
+
+    .main {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        margin-inline: 1rem !important;
+
+    }
+
+    .main h2 {
+        text-align: center !important;
+    }
+
+    p {
+        background-color: var(--grey);
+        padding: 1.5rem;
+
+        display: none !important;
+    }
+
+    .p1 {
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        font-weight: 400;
+        font-size: 1.3rem;
+        font-family: "Poppins", sans-serif;
+        margin-top: 2rem;
+        margin-inline: 0rem !important;
+        gap: 1rem !important;
+    }
+
+    .p2 {
+        display: block !important;
+        width: 15rem !important;
+        height: 5rem !important;
+        display: flex !important;
+        align-items: center;
+    }
+
+    .changeBtn {
+        width: 6rem !important;
+        border-radius: 15px;
+        height: 5rem;
+        color: white;
+        padding: 1rem;
+        background-color: var(--blue);
+        border: 0px;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        font-size: 1.1rem;
+
+    }
+
+
+
+
+
+    .orderData {
+        margin-top: 5rem;
+        margin-inline: 2rem !important;
+        line-height: 5rem;
+        /* color: var(--lightGrey); */
+
+    }
+
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem !important;
+
+    }
+
+    .input1,
+    .input2 {
+        display: block !important;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem !important;
+        display: flex !important;
+        flex-direction: column;
+
+    }
+
+    .input1 input,
+    .emailInput input {
+        padding: 1rem;
+        width: 23rem !important;
+        height: 3.5rem !important;
+        border-radius: 10px;
+        border: 1px solid var(--lightGrey);
+        font-size: 1.2rem;
+        background-color: var(--grey);
+
+    }
+
+    .phoneInp {
+        display: flex;
+        align-items: center;
+        border: 1px solid;
+        padding: 1.7rem;
+        border-radius: 10px;
+        width: 23rem !important;
+        height: 3.5rem !important;
+        background-color: var(--grey);
+
+    }
+
+    .phoneInp input {
+        border: 0px solid;
+        background-color: var(--grey);
+        font-size: 1.2rem;
+    }
+
+    .phoneInp img {
+        width: 2rem !important;
+        height: 2rem !important;
+    }
+
+    .phoneInp a {
+        color: black;
+    }
+
+    .input3 input {
+        width: 23rem !important;
+        height: 15rem;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        border: 1px solid var(--lightGrey);
+        background-color: var(--grey);
+
+    }
+
+    .orderTime,
+    .orderMethod,
+    .paymentMethod {
+        margin-top: 5rem;
+        margin-inline: 2rem !important;
+    }
+
+    .paymentMethod h2 {
+        margin-bottom: 3rem;
+    }
+
+    .orderTimeInp {
+        display: grid !important;
+        margin: 20px;
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr) !important;
+        line-height: 4rem;
+
+    }
+
+    input[type="radio"] {
+        width: 2rem;
+        height: 2rem;
+        accent-color: var(--green);
+
+    }
+
+    .orderTimeInp label,
+    .paymentMethodInp label {
+        font-size: 1.5rem;
+        font-family: "Poppins", sans-serif;
+
+    }
+
+    .paymentMethodInp {
+        display: grid;
+        margin: 20px;
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr) !important;
+        line-height: 4rem;
+    }
+
+    .paymentInp {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        /* background-color: red; */
+    }
+
+    .checkboxInp {
+        margin-top: 5rem;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.5rem;
+        color: var(--color1);
+        font-weight: 400;
+    }
+
+    input[type="checkbox"] {
+        width: 2rem;
+        height: 1.5rem;
+        accent-color: black;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer {
+        display: block !important;
+    }
+
+    footer .section2,
+    footer .section3,
+    footer .section4 {
+        padding-inline-start: 1rem !important;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tablet */
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+
+    .navMenu a {
+        display: none;
+    }
+
+    .icon {
+        margin-inline: 8rem;
+    }
+
+    .navBar img {
+        display: block !important;
+        position: absolute;
+        font-size: 2rem;
+        right: 14rem;
+    }
+
+
+
+
+    .mainTop {
+        margin-top: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        gap: 0rem;
+    }
+
+    .mainTop img {
+        display: none !important;
+    }
+
+    h1 {
+        font-size: 4rem;
+        font-family: "Tinos", serif;
+        /* text-align: center; */
+        margin-inline: 40rem;
+    }
+
+    h2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 2rem;
+
+    }
+
+    .main {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        margin-inline: 1rem !important;
+
+    }
+
+    .main h2 {
+        text-align: center !important;
+    }
+
+    p {
+        background-color: var(--grey);
+        padding: 1.5rem;
+
+        display: none !important;
+    }
+
+    .p1 {
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        font-weight: 400;
+        font-size: 1.3rem;
+        font-family: "Poppins", sans-serif;
+        margin-top: 2rem;
+        margin-inline: 0rem !important;
+        gap: 1rem !important;
+    }
+
+    .p2 {
+        display: block !important;
+        width: 25rem !important;
+        height: 5rem !important;
+        display: flex !important;
+        align-items: center;
+    }
+
+    .changeBtn {
+        width: 10rem !important;
+        border-radius: 15px;
+        height: 5rem;
+        color: white;
+        padding: 1rem;
+        background-color: var(--blue);
+        border: 0px;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        font-size: 1.1rem;
+
+    }
+
+
+
+
+    .orderData {
+        margin-top: 5rem;
+        margin-inline: 2rem !important;
+        line-height: 5rem;
+        /* color: var(--lightGrey); */
+
+    }
+
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem !important;
+
+    }
+
+    .input1,
+    .input2 {
+        display: block !important;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem !important;
+        display: flex !important;
+        flex-direction: column;
+
+    }
+
+    .input1 input,
+    .emailInput input {
+        padding: 1rem;
+        width: 46rem !important;
+        height: 3.5rem !important;
+        border-radius: 10px;
+        border: 1px solid var(--lightGrey);
+        font-size: 1.2rem;
+        background-color: var(--grey);
+
+    }
+
+    .phoneInp {
+        display: flex;
+        align-items: center;
+        border: 1px solid;
+        padding: 1.7rem;
+        border-radius: 10px;
+        width: 46rem !important;
+        height: 3.5rem !important;
+        background-color: var(--grey);
+
+    }
+
+    .phoneInp input {
+        border: 0px solid;
+        background-color: var(--grey);
+        font-size: 1.2rem;
+    }
+
+    .phoneInp img {
+        width: 2rem !important;
+        height: 2rem !important;
+    }
+
+    .phoneInp a {
+        color: black;
+    }
+
+    .input3 input {
+        width: 46rem !important;
+        height: 15rem;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        border: 1px solid var(--lightGrey);
+        background-color: var(--grey);
+
+    }
+
+    .orderTime,
+    .orderMethod,
+    .paymentMethod {
+        margin-top: 5rem;
+        margin-inline: 2rem !important;
+    }
+
+    .paymentMethod h2 {
+        margin-bottom: 3rem;
+    }
+
+    .orderTimeInp {
+        display: grid !important;
+        margin: 20px;
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr) !important;
+        line-height: 4rem;
+
+    }
+
+    input[type="radio"] {
+        width: 2rem;
+        height: 2rem;
+        accent-color: var(--green);
+
+    }
+
+    .orderTimeInp label,
+    .paymentMethodInp label {
+        font-size: 1.5rem;
+        font-family: "Poppins", sans-serif;
+
+    }
+
+    .paymentMethodInp {
+        display: grid;
+        margin: 20px;
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr) !important;
+        line-height: 4rem;
+    }
+
+    .paymentInp {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        /* background-color: red; */
+    }
+
+    .checkboxInp {
+        margin-top: 5rem;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.5rem;
+        color: var(--color1);
+        font-weight: 400;
+    }
+
+    input[type="checkbox"] {
+        width: 2rem;
+        height: 1.5rem;
+        accent-color: black;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer {
+        display: block !important;
+
+    }
+
+
+    footer .section1,
+    footer .section2 {
+        padding-top: 6.5rem;
+
+    }
+
+    footer .section1,
+    footer .section2,
+    footer .section3,
+    footer .section4 {
+        padding-inline-start: 1rem !important;
+
+    }
+}

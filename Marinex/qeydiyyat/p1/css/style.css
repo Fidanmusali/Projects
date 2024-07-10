@@ -1,0 +1,188 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #254083;
+    padding: 0.6rem;
+
+}
+
+.call,
+.money {
+    display: flex;
+    gap: 3rem;
+}
+
+.call a {
+    color: orange;
+}
+
+.call span {
+    color: white;
+    font-weight: 400;
+}
+
+.money {
+    color: white;
+}
+
+.money span {
+    font-weight: 700;
+}
+
+.socialMedia {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.socialMedia a {
+    color: white;
+}
+
+.navBtns {
+    display: flex;
+    gap: 2rem;
+}
+
+.navBtns :hover {
+    color: orange;
+}
+
+.registration,
+.logIn {
+    border: 0px solid;
+    background-color: #254083;
+    color: white;
+    font-size: 1rem;
+
+}
+
+
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    padding: 2.5rem;
+
+}
+
+.section a {
+    text-decoration: none;
+    color: black;
+}
+
+.section a:hover {
+    color: orange;
+}
+
+.orderBtn {
+    background-color: orange;
+    width: 14rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: 0px solid;
+    color: white;
+    box-shadow: 3px 3px 3px #8A8A8A;
+}
+
+.logoImg img {
+    width: 6rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #254083;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.inp1{
+    display: flex;
+    gap: 5rem;
+
+}
+main{
+    line-height: 3rem;
+}
+
+main input{
+    width: 25rem;
+    height: 2rem;
+    border: 1px solid;
+    border-radius: 10px;
+    color: #254083;
+}
+main p{
+    color:#404040 ;
+}
+main select{
+    width: 25rem;
+    height: 2rem;
+    border: 1px solid;
+    border-radius: 10px;
+    border: 1px solid #254083 ;
+
+}
+
+.inp2 input{
+    width: 55rem;
+    height: 2rem;
+}
+
+input[type=submit]{
+    margin-top: 2rem;
+    width: 55rem;
+    height: 3rem;
+    background-color: orange;
+    color: white;
+}
+
+
+
+
+
+footer {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #254083;
+    padding: 5rem;
+}
+
+.part1 img {
+    width: 7rem;
+}
+
+.part2,
+.part3,
+.part4,
+.part5 {
+    line-height: 3rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.finalIcons a {
+    color: white;
+}
+
+.finalIcons {
+    display: flex;
+    gap: 2rem;
+}
+
+footer p:hover {
+    color: orange;
+}
+
+.finalIcons a:hover {
+    color: orange;
+
+}

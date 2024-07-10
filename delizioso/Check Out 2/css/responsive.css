@@ -1,0 +1,296 @@
+/* phone */
+@media screen and (max-width: 767px) {
+    nav {
+        justify-content: center;
+    }
+
+    .navMenu a {
+        display: none;
+    }
+
+    .logInBtn {
+        display: none;
+    }
+
+    .navBar img {
+        display: block !important;
+        position: absolute;
+        font-size: 2rem;
+        right: 2rem;
+    }
+
+    .mainTop {
+        justify-content: center !important;
+        gap: 0rem;
+    }
+
+    .mainTop img {
+        display: none !important;
+    }
+
+    .main {
+        margin-inline: 1rem !important;
+    }
+
+    .main h2 {
+        text-align: center !important;
+    }
+
+    p {
+        display: none !important;
+    }
+
+    .p1 {
+        justify-content: center !important;
+        margin-inline: 0rem !important;
+        gap: 1rem !important;
+    }
+
+    .p2 {
+        display: block !important;
+        width: 15rem !important;
+        height: 5rem !important;
+        display: flex !important;
+        align-items: center;
+    }
+
+    .changeBtn {
+        width: 6rem !important;
+    }
+
+    .orderData {
+        margin-inline: 2rem !important;
+    }
+
+    .inputs {
+        gap: 1rem !important;
+    }
+
+    .input1,
+    .input2 {
+        display: block !important;
+        gap: 1rem !important;
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .input1 input,
+    .emailInput input {
+        padding: 1rem;
+        width: 23rem !important;
+        height: 3.5rem !important;
+    }
+
+    .phoneInp {
+        width: 23rem !important;
+        height: 3.5rem !important;
+    }
+
+    .phoneInp img {
+        width: 2rem !important;
+        height: 2rem !important;
+    }
+
+    .input3 input {
+        width: 23rem !important;
+    }
+
+    .orderTime,
+    .orderMethod,
+    .paymentMethod {
+        margin-inline: 2rem !important;
+    }
+
+    .paymentMethod h2 {
+        margin-bottom: 3rem;
+    }
+
+    .orderTimeInp {
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .paymentMethodInp {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .shippingAddress .btns,
+    .currentLocation {
+        margin-inline: 0rem !important;
+    }
+    
+    .btns {
+        gap: 1rem !important;
+    }
+    
+    .currentLocation input {
+        width: 21rem !important;
+    }
+    
+    .map {
+        background-image: url(../img/map.png);
+        height: 50rem !important;
+    }
+    
+    .mainInfo {
+        display: flex !important;
+        width: 22rem !important;
+        height: 25rem !important;
+        line-height: 2rem !important;
+    }
+    
+    .mainInfo img {
+        width: 6rem !important;
+        object-fit: cover !important;
+    }
+    
+    .info h4 {
+        font-size: 1rem !important;
+    }
+    
+    .confirm {
+        width: 10rem !important;
+       
+    }
+    footer {
+        display: block !important;
+    }
+
+    footer .section2,
+    footer .section3,
+    footer .section4 {
+        padding-inline-start: 1rem !important;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+
+    .navMenu a {
+        display: none;
+    }
+
+    .icon {
+        margin-inline: 8rem;
+    }
+
+    .navBar img {
+        display: block !important;
+        position: absolute;
+        font-size: 2rem;
+        right: 14rem;
+    }
+
+    .mainTop {
+        justify-content: center !important;
+    }
+
+    .mainTop img {
+        display: none !important;
+    }
+
+    .main {
+        margin-inline: 1rem !important;
+    }
+
+    .main h2 {
+        text-align: center !important;
+    }
+
+    p {
+        display: none !important;
+    }
+
+    .p1 {
+        justify-content: center !important;
+        margin-inline: 0rem !important;
+        gap: 1rem !important;
+    }
+
+    .p2 {
+        display: block !important;
+        width: 25rem !important;
+        height: 5rem !important;
+        display: flex !important;
+        align-items: center;
+    }
+
+    .changeBtn {
+        width: 10rem !important;
+    }
+
+    .orderData {
+        margin-inline: 2rem !important;
+    }
+
+    .inputs {
+        gap: 1rem !important;
+    }
+
+    .input1,
+    .input2 {
+        display: block !important;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem !important;
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .input1 input,
+    .emailInput input {
+        width: 46rem !important;
+        height: 3.5rem !important;
+    }
+
+    .phoneInp {
+        width: 46rem !important;
+        height: 3.5rem !important;
+    }
+
+    .phoneInp img {
+        width: 2rem !important;
+        height: 2rem !important;
+    }
+
+    .input3 input {
+        width: 46rem !important;
+    }
+
+    .orderTime,
+    .orderMethod,
+    .paymentMethod {
+        margin-inline: 2rem !important;
+    }
+
+    .orderTimeInp {
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .paymentMethodInp {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .paymentInp {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    footer {
+        display: block !important;
+    }
+
+    footer .section1,
+    footer .section2 {
+        padding-top: 6.5rem;
+    }
+
+    footer .section1,
+    footer .section2,
+    footer .section3,
+    footer .section4 {
+        padding-inline-start: 1rem !important;
+    }
+}

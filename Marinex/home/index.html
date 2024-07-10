@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Home</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="call">
+            <a href="#"><i class="fa-solid fa-phone"><span>+994 51 440 01 40</span></i></a>
+            <a href="#"><i class="fa-solid fa-phone"><span>+994 51 440 01 40</span></i></a>
+        </div>
+        <div class="money">
+            <p><span>USD</span>- 1.7000</p>
+            <p><span>TRY</span>- 0.1065</p>
+            <p><span>EUR</span>- 1.7851</p>
+        </div>
+        <div class="socialMedia">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="navBtns">
+            <button class="registration">Qeydiyyat</button>
+            <button class="logIn">Daxil ol</button>
+        </div>
+    </nav>
+
+    <div class="section">
+        <img class="logoImg" src="./img/logo.png" alt="">
+        <a href="#">Haqqımızda</a>
+        <a href="#">Tariflər</a>
+        <a href="#">Məntəqə tarifləri</a>
+        <a href="#">Mağazalar</a>
+        <a href="#">Xəbərlər</a>
+        <a href="#">Xidmətlər</a>
+        <a href="#">Daşınma şərtləri</a>
+        <a href="#">Əlaqə</a>
+        <button class="orderBtn">Sifariş et</button>
+    </div>
+
+    <main>
+
+        <div class="g1">
+            <h1>Daşınma qiyməti necə hesablanır?</h1>
+            <p>Məhsulunuzu seçin, kalkulyator vasitəsi ilə daşınma qiymətini hesablayın</p>
+
+            <form id="form1">
+                <div class="mainGroup">
+                    <div class="group1">
+                        <div class="b1">
+                            <p>En:</p>
+                            <button id="rangeBtn"></button>
+                            <p>sm</p>
+                        </div>
+                        <input id="range" min="1" max="1000" value="500" type="range">
+                        <div class="number">
+                            <p>1</p>
+                            <p>1000</p>
+                        </div>
+                    </div>
+            </form>
+            <form id="form2">
+                <div class="group1">
+                    <div class="b1">
+                        <p>Hündürlük:</p>
+                        <button id="rangeBtn2"></button>
+                        <p>sm</p>
+                    </div>
+                    <input id="range2" min="1" max="1000" value="500" type="range">
+                    <div class="number">
+                        <p>1</p>
+                        <p>1000</p>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+        <form id="form3">
+            <div class="group1">
+                <div class="b1">
+                    <p>Çəki:</p>
+                    <button id="rangeBtn3"></button>
+                    <p>kg</p>
+                </div>
+                <input id="range3" min="1" max="1000" value="500" type="range">
+                <div class="number">
+                    <p>1</p>
+                    <p>1000</p>
+                </div>
+            </div>
+            <!-- <div class="resultBtn">
+                <button id="finalBtn"></button>
+            </div> -->
+        </form>
+
+        </div>
+
+        <div class="g2">
+            <img src="./img/main.png" alt="" srcset="">
+        </div>
+
+    </main>
+
+    <div class="schedule">
+        <h2>Daşınma qiyməti</h2>
+
+
+        <div class="price">
+            <div class="p1">
+                <h3>Tariflər</h3>
+                <p>0.00 kg - 0.10 kg</p>
+                <p>0.10 kg - 0.25 kg</p>
+                <p>0.25 kg - 0.50 kg</p>
+                <p>0.50 kg - 0.75 kg</p>
+                <p>0.75 kg - 1.00 kg</p>
+                <p>1.00 kg - 5.00 kg</p>
+                <p>5.00 kg - 10.00 kg</p>
+                <p>10.00 kg və üzəri</p>
+            </div>
+            <div class="p2">
+                <h3>Adi məhsul</h3>
+                <p>0.75 USD</p>
+                <p>1.00 USD</p>
+                <p>2.50 USD</p>
+                <p>3.50 USD</p>
+                <p>4.00 USD</p>
+                <p>kg / 4.00 USD</p>
+                <p>kg / 3.50 USD</p>
+                <p>kg / 3.00 USD</p>
+            </div>
+
+            <div class="p3">
+                <h3>Maye</h3>
+                <p>0.75 USD</p>
+                <p>1.00 USD</p>
+                <p>2.50 USD</p>
+                <p>3.50 USD</p>
+                <p>4.00 USD</p>
+                <p>kg / 4.00 USD</p>
+                <p>kg / 3.50 USD</p>
+                <p>kg / 3.00 USD</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="work">
+        <h2>Biz necə işləyirik?</h2>
+
+        <div class="photos">
+            <div class="img1">
+                <img src="./img/img1.png" alt="">
+                <p>Qeydiyyatdan keçirsiniz</p>
+            </div>
+
+            <div class="img2">
+                <img src="./img/img2.png" alt="">
+                <p>Saytımıza daxil olaraq məhsulu sifariş edirsiniz</p>
+            </div>
+            <div class="img3">
+                <img src="./img/img3.png" alt="">
+                <p>Ən qısa zamanda məhsulunuzu sizə çatdırırıq</p>
+            </div>
+        </div>
+    </div>
+<div class="h2">
+    <h2>Yeniliklərdən anında xəbərdar olun</h2>
+
+</div>
+
+    <div class="cards">
+        <div class="card">
+            <img src="./img/1.png" alt="">
+            <h3>Smart Customs-da bəyan et</h3>
+            <p class="text"> Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+            <div class="btns">
+                <div class="date">
+                    <p class="color">18</p>
+                    <p class="mth">May</p>
+                </div>
+                <div class="orangeBtn">
+                    <a href="#"><i class="fa-solid fa-right-long"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./img/2.png" alt="">
+            <h3>Smart Customs-da bəyan et</h3>
+            <p class="text"> Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+            <div class="btns">
+                <div class="date">
+                    <p class="color">18</p>
+                    <p class="mth">May</p>
+                </div>
+                <div class="orangeBtn">
+                    <a href="#"><i class="fa-solid fa-right-long"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./img/3.png" alt="">
+            <h3>Smart Customs-da bəyan et</h3>
+            <p class="text"> Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+            <div class="btns">
+                <div class="date">
+                    <p class="color">18</p>
+                    <p class="mth">May</p>
+                </div>
+                <div class="orangeBtn">
+                    <a href="#"><i class="fa-solid fa-right-long"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img/4.png" alt="">
+            <h3>Smart Customs-da bəyan et</h3>
+            <p class="text"> Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+            <div class="btns">
+                <div class="date">
+                    <p class="color">18</p>
+                    <p class="mth">May</p>
+                </div>
+                <div class="orangeBtn">
+                    <a href="#"><i class="fa-solid fa-right-long"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+<div class="brand">
+    <img src="./img/brand.png" alt="">
+</div>
+
+
+
+
+    <footer>
+        <div class="part1">
+            <img src="./img/logo.png" alt="">
+        </div>
+        <div class="part2">
+            <p>Haqqımızda</p>
+            <p>Tariflər</p>
+            <p>Mağazalar</p>
+            <p>Xəbərlər</p>
+        </div>
+        <div class="part3">
+            <p>Xidmətlər</p>
+            <p>Məntəqələr</p>
+            <p>Daşınma şərtləri</p>
+            <p>Əlaqə</p>
+        </div>
+        <div class="part4">
+            <p>Bakı şəh. Nərimanov r. Nazim Hacıyev küçəsi</p>
+            <p>+994 51 440 01 40 +994 12 514 07 06</p>
+            <p>info.@hello.az</p>
+        </div>
+        <div class="part5">
+            <p>Ən son yeniliklərdən və endirimlərdən xəbərdar olun.</p>
+            <div class="finalIcons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p>Tezliklə</p>
+            <img src="./img/last.png" alt="" srcset="">
+        </div>
+    </footer>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,280 @@
+/* PHONE */
+@media screen and (max-width: 767px) {
+    nav {
+        justify-content: center;
+    }
+
+    .navMenu a {
+        display: none;
+    }
+
+    .logInBtn {
+        display: none;
+    }
+
+    .navBar img {
+        display: block !important;
+        position: absolute;
+        font-size: 2rem;
+        right: 2rem;
+    }
+
+    main {
+        display: block !important;
+        padding-top: 5rem;
+    }
+
+    .section1 {
+        margin-inline-start: 1rem;
+    }
+
+    .section2 img {
+        width: 25rem !important;
+        height: 25rem !important;
+    }
+
+    .buttons {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .secondmain {
+        display: block !important;
+    }
+
+    .secondmain .section1 img {
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 25rem !important;
+        height: 25rem !important;
+    }
+
+
+    .btns {
+        gap: 0.1rem !important;
+
+    }
+
+    .btn1 {
+        width: 5rem !important;
+    }
+
+    .btn2 {
+        width: 5rem !important;
+    }
+
+
+    .menus {
+        display: block !important;
+        padding-bottom: 1rem !important;
+        display: flex !important;
+        flex-direction: column;
+        gap: 5rem;
+
+    }
+
+    .menuBtns {
+        display: none !important;
+    }
+
+    .secondInfo {
+        display: block !important;
+    }
+
+    .secondInfoImg img {
+        width: 25rem !important;
+        height: 30rem !important;
+    }
+
+    .secondInfo h2 {
+        font-size: 3rem !important;
+
+    }
+
+    .secondInfo p {
+        line-height: 2rem !important;
+
+    }
+
+    .chefInfo h2 {
+        font-size: 3rem !important;
+
+    }
+
+    .chefInfo img {
+        width: 15rem !important;
+
+    }
+
+    .chef {
+        display: block !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .custmersInfo {
+        margin-top: 15rem !important;
+        margin-bottom: 15rem !important;
+
+    }
+
+    .img2 {
+        display: none !important;
+
+    }
+
+    .timeAndData {
+        width: 50rem !important;
+        height: 50rem !important;
+    }
+
+    footer {
+        display: block !important;
+    }
+
+    footer .section2,
+    footer .section3,
+    footer .section4 {
+        padding-inline-start: 1rem !important;
+
+    }
+
+}
+
+
+
+
+/* tablet */
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+
+    .navMenu a {
+        display: none;
+    }
+
+    .icon {
+        margin-inline: 8rem;
+    }
+
+    .navBar img {
+        display: block !important;
+        position: absolute;
+        font-size: 2rem;
+        right: 14rem;
+    }
+
+    main {
+        padding-inline-start: 3rem;
+    }
+
+    .secondmain {
+        gap: 0rem !important;
+    }
+
+    .secondmain .section1 img {
+        width: 30rem;
+        height: 30rem;
+    }
+
+
+    .btns {
+        gap: 2rem !important;
+
+    }
+
+    .btn1 {
+        padding: 0.8rem;
+    }
+
+    .btn2 {
+        width: 8rem !important;
+    }
+
+    .menus {
+        grid-template-columns: repeat(2, 1fr) !important;
+
+    }
+
+
+
+
+    .secondInfo {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .secondInfoImg img {
+
+        width: 45rem !important;
+        height: 50rem !important;
+    }
+
+    .secondInfo h2 {
+        font-size: 5rem !important;
+
+    }
+
+    .secondInfo p {
+        font-size: 1.8rem !important;
+        line-height: 3rem !important;
+
+    }
+
+    .reservationBtn2 {
+        padding: 2rem !important;
+        width: 13rem !important;
+        height: 4.5rem !important;
+    }
+
+    .secondInformation {
+        margin-inline: 3rem !important;
+    }
+
+
+    .chefInfo img {
+        width: 13rem !important;
+    }
+
+    .chef {
+        gap: 2rem !important;
+    }
+
+    .custmersInfo {
+        margin-top: 15rem !important;
+        margin-bottom: 15rem !important;
+    }
+
+    .dataMain {
+        display: block !important;
+    }
+
+    .timeAndData {
+
+        width: 52.2rem !important;
+        height: 26rem !important;
+    }
+
+    footer {
+        display: block !important;
+
+    }
+
+
+    footer .section1,
+    footer .section2 {
+        padding-top: 6.5rem;
+
+    }
+
+    footer .section1,
+    footer .section2,
+    footer .section3,
+    footer .section4 {
+        padding-inline-start: 1rem !important;
+
+    }
+
+}

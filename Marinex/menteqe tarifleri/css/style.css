@@ -1,0 +1,203 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #254083;
+    padding: 0.6rem;
+
+}
+
+.call,
+.money {
+    display: flex;
+    gap: 3rem;
+}
+
+.call a {
+    color: orange;
+}
+
+.call span {
+    color: white;
+    font-weight: 400;
+}
+
+.money {
+    color: white;
+}
+
+.money span {
+    font-weight: 700;
+}
+
+.socialMedia {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.socialMedia a {
+    color: white;
+}
+
+.navBtns {
+    display: flex;
+    gap: 2rem;
+}
+
+.navBtns :hover {
+    color: orange;
+}
+
+.registration,
+.logIn {
+    border: 0px solid;
+    background-color: #254083;
+    color: white;
+    font-size: 1rem;
+
+}
+
+
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    padding: 2.5rem;
+
+}
+
+.section a {
+    text-decoration: none;
+    color: black;
+}
+
+.section a:hover {
+    color: orange;
+}
+
+.orderBtn {
+    background-color: orange;
+    width: 14rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: 0px solid;
+    color: white;
+    box-shadow: 3px 3px 3px #8A8A8A;
+}
+
+.logoImg img {
+    width: 6rem;
+}
+
+
+main {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #254083;
+    margin-bottom: 3rem;
+}
+
+.btns{
+    display: flex;
+    gap: 1.2rem;
+}
+
+.b1{
+    width: 6rem;
+    height: 3rem;
+    border-radius: 15px;
+    border: 1px solid #005B7F;
+    background-color: white;
+}
+
+.b1:hover{
+    background-color: #254083;
+    color: white;
+}
+
+
+
+h3 {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 2rem;
+    color: #254083;
+
+}
+
+.tariffs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 2rem;
+}
+
+.products,
+.fluid {
+    display: flex;
+    justify-content: space-around;
+    border: 0.2px solid black;
+    padding: 15px;
+    width: 80rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #CEDEFA;
+
+}
+
+.tariffs h4 {
+    color: #254083;
+}
+
+
+
+
+
+footer {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #254083;
+    padding: 5rem;
+}
+
+.part1 img {
+    width: 7rem;
+}
+
+.part2,
+.part3,
+.part4,
+.part5 {
+    line-height: 3rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.finalIcons a {
+    color: white;
+}
+
+.finalIcons {
+    display: flex;
+    gap: 2rem;
+}
+
+footer p:hover {
+    color: orange;
+}
+
+.finalIcons a:hover {
+    color: orange;
+
+}

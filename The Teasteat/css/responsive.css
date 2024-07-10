@@ -1,0 +1,694 @@
+/* PHONE */
+@media screen and (max-width: 767px) {
+    .navBar {
+        padding: 2rem 1rem !important;
+
+    }
+
+    .sectionTop {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        position: relative;
+    }
+
+    .logo {
+        width: 20rem;
+    }
+
+    .buttons {
+        width: 100%;
+        padding: 0rem 1rem;
+
+    }
+
+    .callBtn {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .reservationBtn {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .hamMenu {
+        display: block !important;
+        position: absolute;
+        font-size: 2rem;
+        right: 0.5rem;
+    }
+
+    .sectionBottom {
+        display: none;
+    }
+
+    main {
+        display: block;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .introMain h1 {
+        font-size: 3.5rem;
+        line-height: 5rem;
+
+    }
+
+    .viewMenuBtn {
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+
+    }
+
+    .mainImg img {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .information {
+        display: block;
+        justify-content: center;
+        gap: 2rem;
+        margin: 3rem 0.3rem;
+
+    }
+
+    .information .section1,
+    .information .section2,
+    .information .section3 {
+        gap: 2rem;
+    }
+
+    .information img {
+        margin: 0.5rem;
+    }
+
+    .information h2 {
+        font-size: 1.5rem;
+    }
+
+    .information p {
+        color: var(--oliveGrey);
+    }
+
+    .info {
+        display: block;
+        margin: 0.3rem;
+
+    }
+
+    .secondImage img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .story p {
+        line-height: 1.5rem;
+    }
+
+    .years h2 {
+        color: var(--darkGrey);
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 4.5rem;
+    }
+
+    .years p {
+        line-height: 1.5rem;
+    }
+
+    .signature img {
+        width: 8rem;
+        height: 5rem;
+    }
+
+    span.line hr {
+        width: 5rem;
+        height: 0.2rem;
+        background-color: var(--orange);
+
+    }
+
+
+    .menuInformation h3 {
+        margin-top: 0.7rem;
+
+    }
+
+    .menuInformation h2 {
+        color: var(--darkGrey);
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .menuInformation p {
+        color: var(--darkGrey);
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .menuInformation img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .seeAllDishesButton {
+        margin-top: 2.5rem;
+        color: var(--orange);
+        padding: 1.5rem;
+        background-color: var(--white);
+        width: 12em;
+        border: 2px solid var(--orange);
+        font-size: 15px;
+    }
+
+    .mainMenu {
+        display: block;
+        gap: 5em;
+        padding: 1rem;
+    }
+
+    .mainMenu h2 {
+        color: var(--oliveGrey);
+        font-size: 35px;
+        line-height: 3em;
+        font-weight: 500;
+    }
+
+    .mainMenu h3 {
+        font-family: "Cormorant Infant", serif;
+        color: var(--darkGrey);
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .mainMenu p {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .startesMainAndDessertMenu h2 {
+        font-weight: 200;
+    }
+
+    .menu1 h3,
+    .menu2 h3,
+    .menu3 h3,
+    .menu4 h3,
+    .menu5 h3,
+    .menu6 h3,
+    .menu7 h3,
+    .menu8 h3,
+    .menu9 h3,
+    .menu10 h3 {
+        font-size: 1.1rem;
+    }
+
+    .menu1 p,
+    .menu2 p,
+    .menu3 p,
+    .menu4 p,
+    .menu5 p,
+    .menu6 p,
+    .menu7 p,
+    .menu8 p,
+    .menu9 p,
+    .menu10 p {
+        font-size: 0.8rem;
+    }
+
+    .menu1,
+    .menu2,
+    .menu3,
+    .menu4,
+    .menu5,
+    .menu6,
+    .menu7,
+    .menu8,
+    .menu9,
+    .menu10 {
+        display: flex;
+        gap: 10px;
+        /* align-items: center; */
+        /* width: 10rem; */
+    }
+
+    .menu1 img,
+    .menu2 img,
+    .menu3 img,
+    .menu4 img,
+    .menu5 img,
+    .menu6 img,
+    .menu7 img,
+    .menu8 img,
+    .menu9 img,
+    .menu10 img {
+        margin: 7px;
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .flex {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        white-space: nowrap;
+        width: 18rem;
+        margin-top: 1rem;
+    }
+
+    .flex .hr {
+        width: 100% !important;
+        height: 0.5px;
+        background-color: var(--darkGrey);
+    }
+
+    .testimonial {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .natashaInfo,
+    .jackInfo,
+    .martInfo {
+        width: 20rem;
+
+    }
+
+
+    .peopleInformation {
+        display: block;
+    }
+
+
+    span.line2 hr {
+        margin: 0rem 9.5rem;
+
+    }
+
+    .burgerandpizza {
+        display: block;
+        gap: 5rem;
+    }
+
+    .burger img,
+    .pizza img {
+        width: 20rem;
+        height: 13rem;
+    }
+
+    span.line3 hr {
+        margin: 0rem 10.3rem;
+
+    }
+
+    .secondMenu p {
+        margin-inline: 1rem;
+    }
+
+    .secondMenuImg {
+        grid-template-columns: repeat(1, 1fr);
+        margin-inline: 4.8rem;
+    }
+
+    .secondMenuImg img {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+    }
+
+    .seeAllDishesBtn {
+        margin-inline: 7rem;
+
+    }
+
+    .whatWeOffer {
+        padding: 4.8rem;
+        display: block;
+        gap: 8rem;
+    }
+
+    .whatWeOfferInfo h2 {
+        line-height: 4rem;
+    }
+
+    .group {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1.5rem;
+        grid-gap: 2rem;
+    }
+
+    span.line5 hr {
+        margin: 0rem 10.5rem;
+
+    }
+
+    .blogMenus {
+        display: block;
+        /* padding-top: 1rem; */
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blogMenu1 img {
+        width: 20rem;
+        height: 15rem;
+    }
+
+    .blogMenu2 img {
+        width: 20rem;
+        height: 15rem;
+    }
+
+    .blogBtn1 {
+        left: 35%;
+        padding: 15px;
+        width: 8rem;
+        top: 12.5%;
+    }
+
+    .blogBtn2 {
+        left: 35%;
+        padding: 15px;
+        width: 8rem;
+        top: 58%;
+    }
+
+    .blogMenu1 {
+        width: 20rem;
+        height: 60%;
+        margin-bottom: 3rem;
+    }
+
+    .blogMenu2 {
+        width: 20rem;
+        height: 60%;
+
+    }
+
+    .reservetionFooter {
+        width: 25rem;
+    }
+
+    .reservetionFooterInfo {
+        width: 22rem;
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+
+    }
+
+
+    .nameAndEmailInp input {
+        width: 8rem;
+    }
+
+    .personsTimingAndData input {
+        width: 5rem;
+    }
+
+    .footer {
+        text-align: center;
+
+    }
+
+    .footerpart1 {
+        display: block;
+        text-align: center;
+        line-height: 2rem;
+    }
+
+    .footerpart1 img {
+        width: 15rem;
+        height: 7rem;
+        
+    }
+
+    .footerpart2 {
+        line-height: 2rem;
+
+    }
+
+    .footerInp input {
+        width: 8rem;
+    }
+
+    .subscribe {
+        width: 4rem;
+
+    }
+
+
+}
+
+
+/* TABLET */
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .navBar {
+        padding: 2rem 2rem !important;
+    }
+
+    .logo {
+        margin-right: 1rem;
+    }
+
+    .buttons {
+        display: flex;
+        gap: 1rem;
+    }
+
+    main {
+        line-height: 4.5rem;
+        padding-inline-start: 2.5rem;
+    }
+
+    .introMain h1 {
+        font-size: 3.5rem;
+        line-height: 5rem;
+
+    }
+
+    .viewMenuBtn {
+        margin-top: 1rem;
+    }
+
+    .mainImg img {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .information .section1,
+    .information .section2,
+    .information .section3 {
+        gap: 0.5rem;
+    }
+
+    .info {
+        display: block;
+    }
+
+    .secondImage img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .years {
+        gap: 1.5rem;
+        justify-content: center;
+    }
+
+    .section {
+        text-align: center;
+    }
+
+
+    span.line hr {
+        display: none;
+    }
+
+    .menuInformation {
+        text-align: center;
+    }
+
+    .menuInformation h2 {
+        font-size: 3rem;
+    }
+
+    .menuInformation p {
+        font-size: 1.4rem;
+    }
+
+    .menuInformation img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .seeAllDishesButton {
+        width: 15em;
+    }
+
+    .mainMenu {
+        display: block;
+    }
+
+
+    .flex {
+        width: 30rem;
+    }
+
+    .peopleInformation {
+        display: block;
+        margin-inline: 7rem;
+    }
+
+    span.line2 hr {
+        margin: 0rem 22.5rem;
+
+    }
+
+    .testimonial {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .burgerandpizza {
+        display: block;
+        gap: 5rem;
+    }
+
+    .burger img,
+    .pizza img {
+        width: 30rem;
+        height: 20rem;
+    }
+
+    span.line3 hr {
+        margin: 0rem 23rem;
+
+    }
+
+    .secondMenu p {
+        margin-inline: 5rem;
+    }
+
+    .secondMenuImg {
+        grid-template-columns: repeat(2, 1fr);
+        margin-inline: 7rem;
+    }
+
+    .seeAllDishesBtn {
+        margin-inline: 19rem;
+
+    }
+
+    .menuhr {
+        width: 13.5rem;
+    }
+
+    span.line4 hr {
+        width: 10rem;
+        height: 0.2rem;
+        /* margin: 0rem 45.5rem; */
+    }
+
+    .whatWeOffer {
+        display: block;
+        gap: 8rem;
+        padding: 3rem;
+    }
+
+    .whatWeOfferInfo h2 {
+        line-height: 4rem;
+    }
+
+    .group {
+        /* display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+        display: flex;
+        grid-gap: 3rem;
+        margin: 2rem auto;
+    }
+
+    span.line5 hr {
+        margin: 0rem 23rem;
+
+    }
+
+    .blogBtn1 {
+        left: 17.5%;
+        padding: 15px;
+        width: 8rem;
+        top: 17%;
+    }
+
+    .blogBtn2 {
+        padding: 15px;
+        width: 8rem;
+        top: 17%;
+
+    }
+
+    .blogMenu1 {
+        width: 45rem;
+        height: 60%;
+    }
+
+    .blogMenu2 {
+        width: 45rem;
+        height: 60%;
+    }
+
+    .footer {
+        background-color: var(--darkGrey);
+    }
+
+
+   
+    .footerInp input {
+        width: 10rem;
+    }
+
+    .subscribe {
+        height: 2.5rem;
+        width: 5rem;
+
+    }
+
+
+}
+
+/* LAPTOP */
+@media screen and (min-width: 1024px) {}
+
+@media screen and (min-width: 834px) and (max-width: 1194px) {
+    span.line2 hr {
+        margin: 0rem 23.5rem;
+    
+    }
+    span.line3 hr {
+        margin: 0rem 24rem;
+    
+    }
+   
+   
+    span.line5 hr {
+        margin: 0rem 24rem;
+    
+    }
+}

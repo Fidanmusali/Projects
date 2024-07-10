@@ -1,0 +1,178 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #254083;
+    padding: 0.6rem;
+
+}
+
+.call,
+.money {
+    display: flex;
+    gap: 3rem;
+}
+
+.call a {
+    color: orange;
+}
+
+.call span {
+    color: white;
+    font-weight: 400;
+}
+
+.money {
+    color: white;
+}
+
+.money span {
+    font-weight: 700;
+}
+
+.socialMedia {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.socialMedia a {
+    color: white;
+}
+
+.navBtns {
+    display: flex;
+    gap: 2rem;
+}
+
+.navBtns :hover {
+    color: orange;
+}
+
+.registration,
+.logIn {
+    border: 0px solid;
+    background-color: #254083;
+    color: white;
+    font-size: 1rem;
+
+}
+
+
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    padding: 2.5rem;
+
+}
+
+.section a {
+    text-decoration: none;
+    color: black;
+}
+
+.section a:hover {
+    color: orange;
+}
+
+.orderBtn {
+    background-color: orange;
+    width: 14rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: 0px solid;
+    color: white;
+    box-shadow: 3px 3px 3px #8A8A8A;
+}
+
+.logoImg img {
+    width: 6rem;
+}
+
+
+.mainImg img {
+    width: 35rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+h1 {
+    color: #254083;
+    margin-bottom: 3rem;
+}
+
+.inputs input {
+    display: block;
+    width: 20rem;
+    height: 2rem;
+    padding: 1rem;
+    border-radius: 15px;
+    border: 1px solid #254083;
+    margin-bottom: 2rem;
+
+}
+
+
+input[type=submit] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    background-color: orange;
+    color: white;
+
+}
+
+.daxilOl {
+    /* border: 1px solid #254083; */
+    padding: 2rem;
+    box-shadow: 2px 2px 5px #254083;
+}
+
+
+footer {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #254083;
+    padding: 5rem;
+}
+
+.part1 img {
+    width: 7rem;
+}
+
+.part2,
+.part3,
+.part4,
+.part5 {
+    line-height: 3rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.finalIcons a {
+    color: white;
+}
+
+.finalIcons {
+    display: flex;
+    gap: 2rem;
+}
+
+footer p:hover {
+    color: orange;
+}
+
+.finalIcons a:hover {
+    color: orange;
+
+}

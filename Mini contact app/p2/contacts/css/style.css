@@ -1,0 +1,97 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 5rem;
+}
+
+.code,
+#modes {
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: 1px solid #394867;
+    color: #394867;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.info {
+    /* margin-top: 7rem; */
+    border: 1px solid #394867;
+    border-radius: 10px;
+    width: 23.1rem;
+}
+
+.img {
+    background-color: #394867;
+    border: 1px solid;
+    width: 23rem;
+    height: 10rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 7rem;
+}
+
+#form {
+    border-radius: 10px;
+}
+
+#form input {
+    display: block;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    width: 20rem;
+    border: 1px solid;
+}
+
+#submit {
+    background-color: #394867;
+    color: white;
+}
+
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.person1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.contacts input{
+    width: 20rem;
+    border-radius: 10px;
+}

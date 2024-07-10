@@ -1,0 +1,44 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+
+}
+
+.img {
+    background-color: #394867;
+    border: 1px solid;
+    width: 22rem;
+    height: 10rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img {
+    width: 7rem;
+}
+
+#form {
+    border: 1px solid #394867;
+    border-radius: 10px;
+
+}
+
+#form input {
+    display: block;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    width: 20rem;
+    border: 1px solid;
+}
+
+#submit {
+    background-color: #394867;
+    color: white;
+}

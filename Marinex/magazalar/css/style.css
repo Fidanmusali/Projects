@@ -1,0 +1,200 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #254083;
+    padding: 0.6rem;
+
+}
+
+.call,
+.money {
+    display: flex;
+    gap: 3rem;
+}
+
+.call a {
+    color: orange;
+}
+
+.call span {
+    color: white;
+    font-weight: 400;
+}
+
+.money {
+    color: white;
+}
+
+.money span {
+    font-weight: 700;
+}
+
+.socialMedia {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.socialMedia a {
+    color: white;
+}
+
+.navBtns {
+    display: flex;
+    gap: 2rem;
+}
+
+.navBtns :hover {
+    color: orange;
+}
+
+.registration,
+.logIn {
+    border: 0px solid;
+    background-color: #254083;
+    color: white;
+    font-size: 1rem;
+
+}
+
+
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    padding: 2.5rem;
+
+}
+
+.section a {
+    text-decoration: none;
+    color: black;
+}
+
+.section a:hover {
+    color: orange;
+}
+
+.orderBtn {
+    background-color: orange;
+    width: 14rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: 0px solid;
+    color: white;
+    box-shadow: 3px 3px 3px #8A8A8A;
+}
+
+.logoImg img {
+    width: 6rem;
+}
+
+.groupImg img {
+    width: 25rem;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.g1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    width: 18rem;
+}
+
+.g1:hover{
+    border: 1px solid red;
+
+}
+.a {
+    text-align: center;
+}
+
+.tr {
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    border: 1px solid #8A8A8A;
+    box-shadow: 3px 3px 3px solid #8A8A8A;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+.tr:hover{
+    color: orange;
+    border: 1px solid orange;
+
+}
+
+h1 {
+    color: #254083;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+}
+
+.g1 img {
+    width: 8rem;
+    padding: 10px;
+}
+
+.groups {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1200px;
+    margin: 0px auto;
+    gap: 2rem;
+
+}
+
+
+
+footer {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #254083;
+    padding: 5rem;
+}
+
+.part1 img {
+    width: 7rem;
+}
+
+.part2,
+.part3,
+.part4,
+.part5 {
+    line-height: 3rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.finalIcons a {
+    color: white;
+}
+
+.finalIcons {
+    display: flex;
+    gap: 2rem;
+}
+
+footer p:hover {
+    color: orange;
+}
+
+.finalIcons a:hover {
+    color: orange;
+
+}

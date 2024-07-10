@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "lorem",
+      "surname": "salam",
+      "date": "29.12.1985",
+      "gender": "Demeyi tercih etmirem",
+      "contry": "RUS",
+      "fin": "2jij568",
+      "city": "MOSKOVA",
+      "tel": "070",
+      "adress": "baki",
+      "filial": "BAKU",
+      "email": "example@gmail.com",
+      "parol": "slam000",
+      "hiddenparol": "slam000"
+    },
+    {
+      "id": "563a",
+      "name": "zsdfg",
+      "surname": "qasdfg",
+      "date": "2024-07-02",
+      "gender": "Kisi",
+      "country": "Try",
+      "fin": "sdfg1234",
+      "city": "ANKARA",
+      "tel": "070",
+      "adress": "ZASDFGHJKL;'",
+      "filial": "BAKU",
+      "email": "sdfvrtryu@fryh.rty",
+      "parol": "wedrtyui",
+      "hiddenparal": "2w3e4rt5y6ujiko"
+    }
+  ]
+}

@@ -53,56 +53,55 @@
         <div class="g1">
             <h1>Daşınma qiyməti necə hesablanır?</h1>
             <p>Məhsulunuzu seçin, kalkulyator vasitəsi ilə daşınma qiymətini hesablayın</p>
-
-            <form id="form1">
-                <div class="mainGroup">
+            <div class="mainForms">
+                <form class="form1" id="form1">
+                    <div class="mainGroup">
+                        <div class="group1">
+                            <div class="b1">
+                                <p>En:</p>
+                                <button id="rangeBtn"></button>
+                                <p>sm</p>
+                            </div>
+                            <input id="range" min="1" max="1000" value="500" type="range">
+                            <div class="number">
+                                <p>1</p>
+                                <p>1000</p>
+                            </div>
+                        </div>
+                </form>
+                <form class="form2" id="form2">
                     <div class="group1">
                         <div class="b1">
-                            <p>En:</p>
-                            <button id="rangeBtn"></button>
+                            <p>Hündürlük:</p>
+                            <button id="rangeBtn2"></button>
                             <p>sm</p>
                         </div>
-                        <input id="range" min="1" max="1000" value="500" type="range">
+                        <input id="range2" min="1" max="1000" value="500" type="range">
                         <div class="number">
                             <p>1</p>
                             <p>1000</p>
                         </div>
                     </div>
-            </form>
-            <form id="form2">
-                <div class="group1">
-                    <div class="b1">
-                        <p>Hündürlük:</p>
-                        <button id="rangeBtn2"></button>
-                        <p>sm</p>
+                </form>
+
+
+                <form class="form3" id="form3">
+                    <div class="group1">
+                        <div class="b1">
+                            <p>Çəki:</p>
+                            <button id="rangeBtn3"></button>
+                            <p>kg</p>
+                        </div>
+                        <input id="range3" min="1" max="1000" value="500" type="range">
+                        <div class="number">
+                            <p>1</p>
+                            <p>1000</p>
+                        </div>
                     </div>
-                    <input id="range2" min="1" max="1000" value="500" type="range">
-                    <div class="number">
-                        <p>1</p>
-                        <p>1000</p>
-                    </div>
-                </div>
-            </form>
+                </form>
+            </div>
 
         </div>
-        <form id="form3">
-            <div class="group1">
-                <div class="b1">
-                    <p>Çəki:</p>
-                    <button id="rangeBtn3"></button>
-                    <p>kg</p>
-                </div>
-                <input id="range3" min="1" max="1000" value="500" type="range">
-                <div class="number">
-                    <p>1</p>
-                    <p>1000</p>
-                </div>
-            </div>
-            <!-- <div class="resultBtn">
-                <button id="finalBtn"></button>
-            </div> -->
-        </form>
-
         </div>
 
         <div class="g2">
@@ -173,10 +172,10 @@
             </div>
         </div>
     </div>
-<div class="h2">
-    <h2>Yeniliklərdən anında xəbərdar olun</h2>
+    <div class="h2">
+        <h2>Yeniliklərdən anında xəbərdar olun</h2>
 
-</div>
+    </div>
 
     <div class="cards">
         <div class="card">
@@ -240,9 +239,9 @@
     </div>
     </div>
 
-<div class="brand">
-    <img src="./img/brand.png" alt="">
-</div>
+    <div class="brand">
+        <img src="./img/brand.png" alt="">
+    </div>
 
 
 

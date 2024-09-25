@@ -46,6 +46,14 @@ p span {
     display: flex;
     gap: 2rem;
 }
+.bars a{
+    color: white;
+    display: none;
+}
+
+.bars a:hover{
+    color: orange;
+}
 
 .login,
 .enterIn {
@@ -70,9 +78,10 @@ p span {
 .section {
     padding: 2rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: center !important;
     align-items: center;
     background-color: #FAFAFA;
+    gap: 3rem !important;
 
 }
 

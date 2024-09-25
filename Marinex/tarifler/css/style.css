@@ -57,6 +57,15 @@ nav {
 
 }
 
+.bars a{
+    color: white;
+    display: none;
+}
+
+.bars a:hover{
+    color: orange;
+}
+
 
 
 .section {

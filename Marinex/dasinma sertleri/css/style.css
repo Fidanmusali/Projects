@@ -39,6 +39,10 @@ nav {
     color: white;
 }
 
+.socialMedia a:hover{
+    color: orange;
+}
+
 .navBtns {
     display: flex;
     gap: 2rem;
@@ -57,6 +61,14 @@ nav {
 
 }
 
+.bars a{
+    color: white;
+    display: none;
+}
+
+.bars a:hover{
+    color: orange;
+}
 
 
 .section {
@@ -136,12 +148,6 @@ h1 {
     color: #254083;
     margin-bottom: 1.5rem;
 }
-
-
-
-
-
-
 
 footer {
     margin-top: 7rem;

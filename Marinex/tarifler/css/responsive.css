@@ -1,0 +1,109 @@
+/* PHONE */
+@media screen and (max-width: 767px) {
+
+    .call,
+    .money {
+        display: none !important;
+        gap: 3rem;
+    }
+
+    .navBtns :hover {
+        color: orange;
+    }
+
+    .section a {
+        display: none;
+    }
+
+    .orderBtn {
+        width: 5rem !important;
+    }
+
+    .bars a {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .groups {
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+
+    }
+
+    .calc img{
+        width: 20rem !important;
+    }
+
+   .calc{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+        display: block !important;
+    }
+
+.forms,
+.formMain2 form  {
+    display: block !important;
+}
+    footer {
+        display: block !important;
+        padding-inline: 2rem !important;
+    }
+
+
+}
+
+/* TABLET */
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+
+    .call,
+    .money {
+        display: flex;
+        gap: 2rem !important;
+    }
+
+    .navBtns :hover {
+        color: orange;
+    }
+
+    .socialMedia {
+        display: none !important;
+    }
+
+    .money {
+        display: none !important;
+    }
+
+    .section a {
+        display: flex;
+        font-size: 10px !important;
+    }
+
+    .orderBtn {
+        width: 6rem !important;
+    }
+
+    .logoImg img {
+        width: 4rem !important;
+    }
+
+    .groups {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+
+    }
+    main {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+
+
+    footer {
+        display: block !important;
+        padding-inline: 2rem !important;
+    }
+
+
+}

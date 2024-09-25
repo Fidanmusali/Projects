@@ -1,0 +1,122 @@
+/* PHONE */
+@media screen and (max-width: 767px) {
+
+    .call,
+    .money {
+        display: none !important;
+        gap: 3rem;
+    }
+
+    .navBtns :hover {
+        color: orange;
+    }
+
+    .section a {
+        display: none;
+    }
+
+    .orderBtn {
+        width: 5rem !important;
+    }
+
+    .bars a {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main {
+        display: block !important;
+        flex-direction: column;
+       margin-inline: 2.2rem;
+    }
+    .inp1 {
+        display: block !important;
+    }
+
+    .inp1 input,
+    .inp1 select,
+    .inp2 input,
+    input[type=submit] {
+        width: 20rem !important;
+    }
+
+    .information {
+        width: 20rem !important;
+    }
+
+    .shipImg img {
+        width: 20rem !important;
+        object-fit: cover !important;
+        height: 10rem !important;
+    }
+
+    footer {
+        display: block !important;
+        padding-inline: 2rem !important;
+    }
+
+}
+
+/* TABLET */
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+
+    .call,
+    .money {
+        display: flex;
+        gap: 2rem !important;
+    }
+
+    .navBtns :hover {
+        color: orange;
+    }
+
+    .socialMedia {
+        display: none !important;
+    }
+
+    .money {
+        display: none !important;
+    }
+
+    .section a {
+        display: flex;
+        font-size: 10px !important;
+    }
+
+    .orderBtn {
+        width: 6rem !important;
+    }
+
+    .logoImg img {
+        width: 4rem !important;
+    }
+
+    main {
+        display: flex !important;
+        flex-direction: column;
+    }
+    .inp1 input,
+    .inp1 select,
+    .inp2 input {
+        width: 20rem !important;
+    }
+    input[type=submit]{
+        width: 45rem !important;
+    }
+    .inp2 input{
+        width: 45rem !important;
+
+    }
+
+    .information {
+        width: 20rem !important;
+    }
+
+    footer {
+        display: block !important;
+        padding-inline: 2rem !important;
+    }
+
+
+}

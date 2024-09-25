@@ -56,6 +56,14 @@ nav {
     font-size: 1rem;
 
 }
+.bars a{
+    color: white;
+    display: none;
+}
+
+.bars a:hover{
+    color: orange;
+}
 
 
 
